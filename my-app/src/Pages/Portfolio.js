@@ -7,11 +7,7 @@ export default function Portfolio() {
     <div className="flex min-h-screen">
       {/* Sidebar */}
       <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
-        <img 
-          className="h-24 w-24 rounded-full mb-4" 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVTcYjpFst47NCVdXvFQ46VDsz5-VuIM19Cg&usqp=CAU" 
-          alt="Profile" 
-        />
+      <img  className="h-24 w-24 rounded-full mb-4" src="https://i.ibb.co/6HcHYNX/My-Image.jpg" alt="My-Image" border="0" />
         <nav className="flex flex-col space-y-4">
           <a href="/" className="text-white text-lg">Home</a>
           <a href="/about" className="text-white text-lg">About Me</a>
@@ -24,7 +20,7 @@ export default function Portfolio() {
 
       {/* Main Content */}
       <div className="w-3/4 p-16 bg-gray-100 flex flex-col space-y-8">
-        <h1 className="text-5xl font-bold">PORTFOLIO</h1>
+        <h1 className="text-5xl font-bold">MY-PORTFOLIO</h1>
         
         {/* Portfolio Categories */}
         <div className="flex space-x-8 text-lg">

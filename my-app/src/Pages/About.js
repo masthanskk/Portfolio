@@ -55,11 +55,10 @@ export default function About() {
     <div className="flex min-h-screen">
       {/* Sidebar */}
       <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
-        <img 
-          className="h-24 w-24 rounded-full mb-4" 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVTcYjpFst47NCVdXvFQ46VDsz5-VuIM19Cg&usqp=CAU" 
-          alt="Profile" 
-        />
+      <img 
+       className="h-24 w-24 rounded-full mb-4"
+       src="https://i.ibb.co/6HcHYNX/My-Image.jpg"
+       alt="My-Image" border="0" />
         <nav className="flex flex-col space-y-4">
           <a href="/" className="text-white text-lg">Home</a>
           <a href="/about" className="text-white text-lg">About Me</a>
@@ -74,30 +73,28 @@ export default function About() {
       <div className="w-3/4 p-16 bg-gray-100 flex flex-col space-y-8">
         <h1 className="text-5xl font-bold">ABOUT ME</h1>
         <h2 className="text-2xl font-bold">
-          I'm <span className="text-yellow-500">Benjamin Smith</span>, Graphic Designer / Photographer
+          I'm <span className="text-yellow-500">Mathan Shaik </span>, Front-End / Developer
         </h2>
         <p className="text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ex error molestias veritatis,
-          cumque dolorum doloribus. Fugiat ratione nobis temporibus exercitationem, nihil, ipsa dolores
-          autem ea nostrum dolore architecto ducimus sint, enim facere? Soluta accusamus placeat ad.
+        Passionate and results-driven frontend developer with over four years of experience specializing in React JS. Proficient in crafting modern, responsive web applications with a keen eye on user experience and performance optimization.
         </p>
 
         {/* Statistics */}
         <div className="flex space-x-8">
           <div className="bg-black text-white p-8 flex flex-col items-center justify-center">
-            <h3 className="text-3xl font-bold">15+</h3>
+            <h3 className="text-3xl font-bold">4+</h3>
             <p>Years Experience</p>
           </div>
           <div className="bg-black text-white p-8 flex flex-col items-center justify-center">
-            <h3 className="text-3xl font-bold">350+</h3>
+            <h3 className="text-3xl font-bold">4</h3>
             <p>Projects Done</p>
           </div>
           <div className="bg-black text-white p-8 flex flex-col items-center justify-center">
-            <h3 className="text-3xl font-bold">200+</h3>
+            <h3 className="text-3xl font-bold">3+</h3>
             <p>Happy Clients</p>
           </div>
           <div className="bg-black text-white p-8 flex flex-col items-center justify-center">
-            <h3 className="text-3xl font-bold">45K</h3>
+            <h3 className="text-3xl font-bold">87</h3>
             <p>Followers</p>
           </div>
         </div>

@@ -128,14 +128,14 @@ export default function Home() {
         </p>
 
         <button className="bg-yellow-500 text-white py-2 px-4 rounded">MORE ABOUT ME</button>
-      </div>
-      <div className="relative w-1/2 bg-gray-200">
-      
-     <img className="object-cover w-full h-full" src="https://i.ibb.co/s2Tx836/IMG-0185.jpg" alt="IMG-0185" border="0" />
+      </div> 
+      <div className="relative w-1/2 bg-gray-200"> 
+      < img className="object-cover w-full " src="https://i.ibb.co/x2Xn2mk/IMG-0185-1.jpg" alt="IMG-0185-1" border="0" />
+     
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 p-4 bg-yellow-500 rounded-full">
           <a href="https://www.linkedin.com/in/sk-masthan/" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
           <a href='/about' className='text-white'> <IoPerson className='h-6 w-6'/> </a>
-          <a href="#github" className="text-white"><FaGithub className="h-6 w-6" /></a>
+          <a href="https://github.com/masthanskk" className="text-white"><FaGithub className="h-6 w-6" /></a>
           
           {/* Add more icons as needed */}
         </div>

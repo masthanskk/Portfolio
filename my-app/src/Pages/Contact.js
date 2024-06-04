@@ -30,11 +30,11 @@ const Contact = () => {
           </div>
           <div className="text-center">
             <img src="path_to_phone_icon" alt="Phone" className="w-16 h-16 mx-auto mb-2" />
-            <p>+91-8519835763</p>
+            <p>+91-8897692954</p>
           </div>
           <div className="text-center">
             <img src="path_to_email_icon" alt="Email" className="w-16 h-16 mx-auto mb-2" />
-            <p>shahul85198@gmail.com</p>
+            <p>Skmasthan.1999@gmail.com</p>
           </div>
         </div>
         <div className="mt-8 text-center text-gray-600">

@@ -119,13 +119,13 @@ const Resume = () => {
           <h2 className="text-2xl font-bold mb-4">Education History</h2>
           <ul className="list-none p-0">
             <li className="bg-gray-100 p-4 mb-2 border-l-4 border-blue-400">
-              Mechanical Engineering from Nannapaneni Venkat Rao College of Engineering & Technology in Year-2021 with 60%.
+              Mechanical Engineering from Nannapaneni Venkat Rao College of Engineering & Technology in Year-2021 with 75%.
             </li>
             <li className="bg-gray-100 p-4 mb-2 border-l-4 border-blue-400">
-              MPC from Board of Intermediate Education in Year-2013 with 65.6%.
+              MPC from Board of Intermediate Education in Year-2017 with 77.7%.
             </li>
             <li className="bg-gray-100 p-4 mb-2 border-l-4 border-blue-400">
-              SSC from Board of Secondary Education in Year-2011 with 75%.
+              SSC from Board of Secondary Education in Year-2015 with 73%.
             </li>
           </ul>
         </section>

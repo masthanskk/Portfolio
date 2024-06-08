@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col justify-center w-1/2 p-16 bg-white">
         <h1 className="text-5xl font-bold mb-4">HI THERE!</h1>
         <h2 className="text-6xl font-bold mb-4">
-            I'M <span className="text-yellow-500">Mastan Shaik</span>
+            I'M <span className="text-yellow-500">Masthan Shaik</span>
         </h2>
         <h3 className="text-lg font-medium mb-4">Front-End React | Developer </h3>
         <p className="text-gray-600 mb-4">

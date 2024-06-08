@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import { IoPerson } from "react-icons/io5";
 
 export default function Portfolio() {
   return (
@@ -9,12 +10,12 @@ export default function Portfolio() {
       <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
       <img  className="h-24 w-24 rounded-full mb-4" src="https://i.ibb.co/4FKbFsq/IMG-0185-1.jpg"  alt='' border="0" />
         <nav className="flex flex-col space-y-4">
-          <a href="/" className="text-white text-lg">Home</a>
-          <a href="/about" className="text-white text-lg">About Me</a>
-          <a href="/resume" className="text-white text-lg">Resume</a>
-          <a href="/portfolio" className="text-white text-lg">Portfolio</a>
-          <a href="/testimonials" className="text-white text-lg">Testimonials</a>
-          <a href="/contact" className="text-white text-lg">Contact</a>
+          <a href="/" className="text-white text-xl">Home</a>
+          <a href="/about" className="text-white text-xl">About Me</a>
+          <a href="/resume" className="text-white text-xl">Resume</a>
+          <a href="/portfolio" className="text-white text-xl">Portfolio</a>
+          <a href="/testimonials" className="text-white text-xl">Testimonials</a>
+          <a href="/contact" className="text-white text-xl">Contact</a>
         </nav>
       </div>
 
@@ -56,8 +57,10 @@ export default function Portfolio() {
 
         {/* Social Icons */}
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 p-4 bg-yellow-500 rounded-l">
-          <a href="#linkedin" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
-          <a href="#github" className="text-white"><FaGithub className="h-6 w-6" /></a>
+        <a href="https://www.linkedin.com/in/sk-masthan/" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
+          <a href='/about' className='text-white'> <IoPerson className='h-6 w-6'/> </a>
+          <a href="https://github.com/masthanskk" className="text-white"><FaGithub className="h-6 w-6" /></a>
+          
           {/* Add more icons as needed */}
         </div>
       </div>

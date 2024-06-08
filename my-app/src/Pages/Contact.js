@@ -1,18 +1,21 @@
 
 import React from 'react';
-
+import { IoLogoLinkedin } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { IoPerson } from "react-icons/io5";
 
 const Contact = () => {
   return (
     <div className="flex h-screen bg-gray-200">
-      <div className="bg-yellow-500 p-6 flex flex-col items-center text-white w-1/4">
-        <img src="path_to_image" alt="Profile" className="rounded-full w-24 h-24 mb-4" />
+      <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
+        <img src="https://i.ibb.co/4FKbFsq/IMG-0185-1.jpg" alt="Profile" className="rounded-full w-24 h-24 mb-4" />
         <nav className="flex flex-col space-y-4">
-          <a href="/" className="hover:underline">Home</a>
-          <a href="/about" className="hover:underline">About Me</a>
-          <a href="/resume" className="hover:underline">Resume</a>
-          <a href="/portfolio" className="hover:underline">Portfolio</a>
-          <a href="/contact" className="hover:underline">Contact</a>
+          <a href="/" className="text-white text-xl">Home</a>
+          <a href="/about" className="text-white text-xl">About Me</a>
+          <a href="/resume" className="text-white text-xl">Resume</a>
+          <a href="/portfolio" className="text-white text-xl">Portfolio</a>
+          <a href="/testimonials" className="text-white text-xl">Testimonials</a>
+          <a href="/contact" className=" text-white text-xl">Contact</a>
         </nav>
       </div>
 
@@ -25,7 +28,8 @@ const Contact = () => {
         </p>
         <div className="flex space-x-8">
           <div className="text-center">
-            <img src="path_to_computer_icon" alt="Computer" className="w-16 h-16 mx-auto mb-2" />
+            <img src="" 
+            alt="Computer" className="w-16 h-16 mx-auto mb-2" />
             <p>Web Design</p>
           </div>
           <div className="text-center">
@@ -43,10 +47,9 @@ const Contact = () => {
       </div>
       
       <div className="flex flex-col justify-center items-center space-y-4 w-12 bg-yellow-500 text-white">
-        <a href="#link1" className="hover:underline">A</a>
-        <a href="#link2" className="hover:underline">B</a>
-        <a href="#link3" className="hover:underline">C</a>
-        <a href="#link4" className="hover:underline">D</a>
+      <a href="https://www.linkedin.com/in/sk-masthan/" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
+          <a href='/about' className='text-white'> <IoPerson className='h-6 w-6'/> </a>
+          <a href="https://github.com/masthanskk" className="text-white"><FaGithub className="h-6 w-6" /></a>
       </div>
     </div>
   );

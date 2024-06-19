@@ -7,15 +7,15 @@ import { IoPerson } from "react-icons/io5";
 
 export default function Home() {
   return (
-    <div className="flex flex-row min-h-screen">
-      <div className="flex flex-col justify-center w-1/2 p-16 bg-white">
+    <div className="flex flex-row min-h-screen ">
+      <div className="flex flex-col justify-center w-1/2 p-16 ">
         <h1 className="text-5xl font-bold mb-4">HI THERE!</h1>
         <h2 className="text-6xl font-bold mb-4">
             I'M <span className="text-yellow-500">Masthan Shaik</span>
         </h2>
         <h3 className="text-lg font-medium mb-4">Front-End React | Developer </h3>
         <p className="text-gray-600 mb-4">
-           <img className='h-8 w-8 mt-2' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj0q7TUjRJA2HaN22zBrgzAwYVvnIIwn1pIw&usqp=CAU' alt="Developer Logo" />        
+           <img className='h-8 w-8 mt-2 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj0q7TUjRJA2HaN22zBrgzAwYVvnIIwn1pIw&usqp=CAU' alt="Developer Logo" />        
              A passionate Front-end React <br /> Developer based in
         </p>        
         
